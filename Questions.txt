@@ -1,0 +1,24 @@
+ What problem you faced?
+#Compile time
+1. Bean creation Exception at the time of creating table.solution
+     a. The error message suggests that the Hibernate framework is unable to determine the type of the profileImage field in the User entity class, which is of type MultipartFile from the Spring framework.
+     To fix this issue, we need to add an attribute to ignore the profileImage field from Hibernate's mapping process. We can use the @Transient annotation to ignore a field in the entity.
+
+     b.Whenever composite key(more than 2 column is unique) is there in entity class implemet serializable for that entity
+
+Runtime
+
+2. Could not write JSON: Infinite recursion (StackOverflowError)
+    This error occurs when there is a circular reference between two or more entities, causing an infinite loop when the Jackson serializer tries to serialize the objects into JSON format.
+    To fix this error, you can use the @JsonIgnore annotation to break the circular reference
+    @OneToMany(mappedBy = "user")
+    @JsonIgnore
+    private List<Order> orders;
+
+Compole time
+
+3.When declaring a customed method (it will find the List<shipping> based on oderId)in shipping repository It was declared as findByOrderId and it was showing error because
+The error message suggests that the query method findByOrderId in ShippingRepository is trying to access a property called id on the Order entity, but it does not exist. 
+This is because the relationship between Shipping and Order is defined using a property called order, not id.
+To fix the issue, change the query method to use findByOrderOrderId instead of findByOrderId
+
