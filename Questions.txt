@@ -1,4 +1,9 @@
- What problem you faced?
+Difference b/w Rest Template and @Requestbody?
+Rest Template is used in microservice based project to fetch data from json and convert it to java object(getForObject) and vice versa (postForObject)
+whether @Requestbody is generally used in api based project where it is not capable of converting java object back to json, that part is done by @Restcontroller itself
+
+
+What problem you faced?
 #Compile time
 1. Bean creation Exception at the time of creating table.solution
      a. The error message suggests that the Hibernate framework is unable to determine the type of the profileImage field in the User entity class, which is of type MultipartFile from the Spring framework.
