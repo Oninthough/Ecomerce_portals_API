@@ -8,7 +8,7 @@ What is the last job you've done./ further modification
 What are the bugs that you have fixed?
 
 
-What the problems you've faced?
+What are the problems you've faced?
 #Compile time
 1. Bean creation Exception at the time of creating table.solution
      a. The error message suggests that the Hibernate framework is unable to determine the type of the profileImage field in the User entity class, which is of type MultipartFile from the Spring framework.
