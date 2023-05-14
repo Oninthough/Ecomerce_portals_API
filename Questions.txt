@@ -9,8 +9,11 @@ What are the bugs that you have fixed?
 
 How did you secured you project/ How did you implemented Spring Security?
 There are 2 parts in spring security one is Authentication another is authorization. 
-->For Authentication firstof all we make AuthController and from where we could fetch the username and password in the login method and provide it to           CoustomUserDetailsService class which implements UserDetailsService which has a inbuilt method called loadUserByUsername where the authentication of username and   password is basically done
-->For authorization first of all 2 entity class was created one is user another is role where basically a role will be provided for the user (ie. is he a normal     user or a admin) and Many to Many mapping is established between these two. as there can be multiple user and admin and one person can be both user and admin at   a time. In the user repository some Custom methods are declared like findyUsernameOrEmail(String UsernameOrEmail) to make use of it in the authentication   part(inside loadUserByUsername it is used to fetch the signin details)
+->For Authentication first of all we make AuthController and from where we could fetch the username and password in the login method and provide it to
+  CoustomUserDetailsService class which implements UserDetailsService which has a inbuilt method called loadUserByUsername where the authentication of username 
+  and   password is basically done
+->For authorization first of all 2 entity class was created one is user another is role where basically a role will be provided for the user (ie. is he a normal     user or a admin) and Many to Many mapping is established between these two. as there can be multiple user and admin and one person can be both user and admin at   a time. In the user repository some Custom methods are declared like findyUsernameOrEmail(String UsernameOrEmail) to make use of it in the authentication part
+  (inside loadUserByUsername it is used to fetch the signin details)
 
 What are the problems you've faced?
 #Compile time
