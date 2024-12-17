@@ -1,65 +1,15 @@
-import React from 'react';
-import './SignUpPage.css'; // Ensure the CSS path is correct based on your structure
+For what Sourabh did well: Sourabh has demonstrated excellent proficiency in UI development, showing a keen eye for design and user experience. His work on integrating the front-end with back-end services has been instrumental in enhancing our application's functionality. His proactive approach and ability to quickly adapt to new technologies have significantly contributed to our project's success at Infozone.
 
-const SignUpPage: React.FC = () => {
-  return (
-    <div className="signup-container">
-      <div className="login-box">
-        <h1>Welcome to TransUnion</h1>
-        <p>Data-driven decisions. Better business outcomes.</p>
-        <form>
-          <input type="text" placeholder="Email Address / Username" required />
-          <button type="submit">Sign In</button>
-        </form>
-        <p className="small-print">©2024 TransUnion LLC. All rights reserved | Privacy | Personal Information We Collect</p>
-      </div>
-    </div>
-  );
-};
-
-export default SignUpPage;
+For what Sourabh can do differently: Sourabh is doing great in his current role. Moving forward, he could benefit from more involvement in the planning stages of our projects. This exposure would not only enhance his understanding of the application's broader architecture but also enable him to provide more insightful inputs during the design phase, aligning even more closely with back-end functionalities.
 
 
 
-.signup-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: #f0f0f0;
-}
 
-.login-box {
-  background: white;
-  padding: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: center;
-}
 
-.login-box h1, .login-box p {
-  margin-bottom: 20px;
-}
 
-.login-box input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
 
-.login-box button {
-  width: 100%;
-  padding: 10px;
-  background: #0078d4;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-.small-print {
-  font-size: 10px;
-  color: #666;
-}
+
+
+
+
