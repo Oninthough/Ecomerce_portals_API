@@ -1,3 +1,5 @@
-Shriniketh has consistently demonstrated strong technical skills in UI development, significantly contributing to the aesthetic and functional enhancements of our applications. His ability to implement complex design specifications accurately and efficiently has been a key asset to our team's success.
+For what Meghana did well: Meghana has excelled as the sole tester in our team, ensuring that our CSS project maintains the highest quality standards. Her meticulous attention to detail and commitment to thorough testing have been instrumental in identifying and resolving issues before deployment, significantly enhancing the stability and performance of our applications.
 
-For what Shriniketh can do differently: While Shriniketh's technical contributions are invaluable, enhancing his communication skills could further amplify his impact. Encouraging him to share more insights and explanations about his development choices during team meetings could not only increase his visibility but also foster better collaboration within the team.
+Summarize contributions to the team: "Invaluable"
+
+One piece of advice for excelling in the coming year: To further enhance your impact, consider expanding your skill set into automated testing tools. This will not only increase your efficiency but also add valuable capabilities to our team, keeping us ahead in rapidly evolving testing environments.
