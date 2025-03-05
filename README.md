@@ -694,7 +694,24 @@ public class OrigResponse {
     private Long userNameId;
     private LocalDateTime createTimestamp;
     private Long tueId;
-}
+}////
+applicatiion.prop
+spring.datasource.url=jdbc:oracle:thin:@ch03-eid-dev-db-oracle03.neustar.net:2115/nisdev.neustar.net?user=ConfiguratorUser&password=Configurator1
+server.port=9095
+spring.jpa.show-sql=true
+spring.hibernate.ddl-auto=update
+spring.datasource.driverClassName=oracle.jdbc.OracleDriver
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.Oracle12cDialect
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+#cors properties
+cors.allowedOrigins=http://localhost:3000
+cors.pathPattern=/api/v1/**
+cors.allowedMethods=GET,POST,PUT,PATCH,DELETE
+cors.allowedHeaders=Host,User-Agent,Authorization,Content-Type,Content-Length
+cors.allowCredentials=true
+cors.maxAge=3600
+
 //Common Module
 //config
 package com.infozone.common.config;
